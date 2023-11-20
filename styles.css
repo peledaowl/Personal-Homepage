@@ -240,3 +240,72 @@ img {
 }
 
 
+@media screen and (min-width: 768px) {
+  header {
+    overflow-y: hidden;
+  }
+
+  .background-img {
+    width: 160%;
+    height: 200%;
+    top: -160%;
+    left: -55%;
+    transform: rotate(70deg);
+    
+  }
+
+  .about-container {
+    display: block;
+    background-color: white;
+    max-width: 500px;
+    margin-top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+  }
+
+  .image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 10%;
+    
+  }
+
+  .image-container{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: -50px;
+    margin-left: -100px;
+    padding: 1rem;
+  }
+
+  .image-container::after {
+    left: 1rem;
+    top: -1.3em;
+    width: calc(300px - 2rem);
+    height: 300px;
+    
+  }
+
+  .about-container h3 {
+    text-align: justify; 
+    margin-top: 1em;
+    text-align: center;
+  }
+  .about-container p {
+    text-align: justify; 
+    margin: 20px;
+    font-size: 1rem;
+  }
+
+  .socials-container {
+    display: none;
+  }
+
+  main {
+    margin-top: 2rem;
+  }
+
+  
+}
